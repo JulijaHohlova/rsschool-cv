@@ -4,7 +4,7 @@
 ## My Contact Info
 
 
-* Address: Riga, Latvia
+* Address: Riga, Latvia, Maskavas
 
 * Phone: +37129352570
 
