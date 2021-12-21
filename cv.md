@@ -21,7 +21,7 @@
 
 + HTML
 + CSS 
-+ JavaScript 
++ JavaScript (beginer)
 + Version control: Git (remote service GitHub)
 + Windows, OS
 
