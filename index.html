@@ -4,27 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="style.css"
-  <link rel="icon" href="assets/favicon.ico"
+  <link rel="icon" href="assets/img/favicon.ico"
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cv3</title>
 </head>
-<body class="body">
+<body class="page-body">
   <header>
     <button class="burger">
-      <span class="burger_line"></span>
+      <span class="burger__line"></span>
     </button>
      <nav class="nav">
-     <ul class="nav-list">
-       <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-       <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-       <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-       <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-       <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-       <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-       <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-       <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+     <ul class="nav__list">
+       <li class="nav__item"><a href="#about-me">About me</a></li>
+       <li class="nav__item"><a href="#skills">Skills</a></li>
+       <li class="nav__item"><a href="#strengths">Strengths</a></li>
+       <li class="nav__item"><a href="#code-example">Code</a></li>
+       <li class="nav__item"><a href="#projects">Projects</a></li>
+       <li class="nav__item"><a href="#contacts">Contacts</a></li>
+       <li class="nav__item"><a href="#english">English</a></li>
      </ul>
    </nav>
   </header>
@@ -39,47 +38,85 @@
         alt="photo of Julija Hohlova"
         />
       </figure>
-      <section class="name">
-        <h1> JULIJA HOHLOVA</h1>
-        <h2> Frontend Developer</h2>
-      </section>
       <section class="contacts" id="contacts">
        <h2 class="section-title">Contacts</h2>
-       <ul class="contacs-list">
-         <li class="contacts-item">
+       <ul class="contacs__list">
+         <li class="contacts__item">
            Phone:<a href="tel:+37129352570">+37129352570</a>
          </li>
-         <li class="contacts-item">
+         <li class="contacts__item">
            Email: <a href="mailto:j.hohlova@inbox.lv">j.hohlova@inbox.lv</a>
          </li>
        </ul>
       </section>
-      <section class="summary" id="summary">
-        <h2 class="section-title">Summary</h2>
+      <section class="education" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education__item">
+          <li>
+          2006-2010 <br /> BSA, Riga, Latvia
+          </li>
+          </ul>
        </section>
-       <section class="skills" id="skills">
+       </div>
+       <div class="right-side">
+       <section class="page-title">
+         <h1 class="main-title">JULIJA <br/> HOHLOVA </h1>
+         <p> Front-End developer</p>
+         </section>
+         <figure class="figure--rught-side">
+           <img
+           src="assets/img/photo.JPG"
+           width="380"
+           height="507"
+           class="photo"
+           alt="Photo of Julija Hohlova"
+           />
+         </figure>
+         <section class="about-me" id="about-me">
+           <h2 class="section-title"> About me</h2>
+           <p> text about me</p>
+         </section>
        <h2 class="section-title">Skills</h2>
       </section>
-       <section class="code" id="code">
-        <h2 class="section-title">Code</h2>
-       </section>
-       <section class="courses" id="courses">
-        <h2 class="section-title">Courses</h2>
-       </section>
-       <section class="projects" id="projects">
-        <h2 class="section-title">Projects</h2>
-       </section>
-       <section class="education" id="education">
-        <h2 class="section-title">Education</h2>
-       </section>
-       <section class="english" id="english">
-        <h2 class="section-title">English</h2>
-       </section>
-    </div>
-     
-  </main>
+      <section class="skills" id="skills">
+        <h2 class="section-title"> Skills</h2>
+        <ul class="skills__list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>English A2</li>
+        </ul>
+      </section>
+      <section class="key-strengths" id="strengths">
+        <h2 class="section-title">Key strengths</h2>
+        <ul class="key-strengths__list">
+          <li>Hardworking</li>
+          <li>Socieable</li>
+        </ul>
+      </section>
+      <section class="code-example" id="code-example">
+        <h2 class="section-title">Code example</h2>
+        <details>
+          <summary> From ServiceNow course</summary>
+        </details>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="section-title">My projects</h2>
+        </section>
+        </div>
+        </main>
   <footer class="footer">
-    <div class="container"></div>
-  </footer>  
-</body>
-</html><link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <a class="footer__github" href="https://github.com/julijahohlova" target="_blank">
+      My Github
+    </a>
+    <p class="footer__year">2021</p>
+    <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+      <img
+      src="assets/img/rs_school_js.svg"
+      width="86"
+      height="32"
+      alt="RS School"
+      />
+    </a>
+    </footer>
+  </body>
+</html>
