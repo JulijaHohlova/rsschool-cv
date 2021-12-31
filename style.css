@@ -50,13 +50,7 @@ html {
   height: 36px;
   background-color: turquoise;
 }
-.nav a,
-.projects__title,
-.projects__title:after,
-.projects__item:hover .projects__image {
-  transition: all 0.3s ease 0s;
-}
-header {
+.header {
 width: 100%;
 height: 50px;
 background-color: #e6e6e6;
