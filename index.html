@@ -1,17 +1,123 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html class="page" lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/img/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com"/> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julija Hohlova cv3</title>
 </head>
-<body>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-</body>
+<body class="page-body">
+  <header>
+    <button class="burger">
+      <span class="burger__line"></span>
+    </button>
+     <nav class="nav">
+     <ul class="nav__list">
+       <li class="nav__item"><a href="#about-me">About me</a></li>
+       <li class="nav__item"><a href="#skills">Skills</a></li>
+       <li class="nav__item"><a href="#language">Language</a></li>
+       <li class="nav__item"><a href="#code-example">Code</a></li>
+       <li class="nav__item"><a href="#contacts">Contacts</a></li>
+       <li class="nav__item"><a href="#education">Education</a></li>
+     </ul>
+   </nav>
+  </header>
+  <main class="container">
+    <div class="left-side">
+      <figure class="figure--left-side">
+        <img
+        src="assets/img/photo.JPG"
+        width="507"
+        height="507"
+        class="photo"
+        alt="photo of Julija Hohlova"
+        >
+      </figure>
+      <section class="contacts" id="contacts">
+       <h2 class="section-title">Contacts</h2>
+       <ul class="contacts__list">
+         <li class="contacts__item">
+           Phone:<a href="tel:+37129352570">+37129352570</a>
+         </li>
+         <li class="contacts__item">
+           Email: <a href="mailto:j.hohlova@inbox.lv">j.hohlova@inbox.lv</a>
+         </li>
+       </ul>
+      </section>
+      <section class="education" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education__list">
+          <li class="education__item">
+          2006-2010 <br /> BSA, Riga, Latvia
+          </li>
+          </ul>
+       </section>
+       </div>
+       <div class="right-side">
+       <section class="page-title">
+         <h1 class="main-title">JULIJA <br/> HOHLOVA </h1>
+         <p> Front-End developer</p>
+         </section>
+         <figure class="figure--right-side">
+           <img
+           src="assets/img/photo.JPG"
+           width="380"
+           height="507"
+           class="photo"
+           alt="Photo of Julija Hohlova"
+           />
+         </figure>
+         <section class="about-me" id="about-me">
+           <h2 class="section-title"> About me</h2>
+           <p> These are my first steps in IT. I would like to become a Front-End developer</p>
+         </section>
+         <section class="skills" id="skills">
+       <h2 class="section-title">Skills</h2>
+       <ul class="skills__list">
+       <li>HTML (beginner)</li>
+       <li>CSS(beginner)</li>
+       </ul>
+      </section>
+      <section class="language" id="language">
+        <h2 class="section-title">Language</h2>
+        <ul class="language__list">
+          <li>Russian</li>
+          <li>Latvian</li>
+          <li>English</li>
+        </ul>
+      </section>
+      <section class="code-example" id="code-example">
+        <h2 class="section-title">Code example</h2>
+        <details>
+          <summary> From CodeWars</summary>
+          <pre>
+            <code data-language ="javascript">
+              function multiply (a,b){
+                return a*b
+              }
+            </code>
+          </pre>
+        </details>
+      </section>
+        </div>
+        </main>
+  <footer class="footer">
+    <a class="footer__github" href="https://github.com/julijahohlova" target="_blank">
+      My Github
+    </a>
+    <p class="footer__year">2021</p>
+    <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+      <img
+      src="assets/img/rs_school_js.svg"
+      width="86"
+      height="32"
+      alt="RS School"
+      />
+    </a>
+    </footer>
+  </body>
 </html>
